@@ -1,0 +1,19 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+           # redirect-uri: "http://localhost:3000/login/oauth2/code/github"
+
+#        registration:
+#          maif-pf:
+#            client-id: localhost-dev
+#            authorization-grant-type: authorization_code
+#        provider:
+#          maif-pf:
+#            authorization-uri: https://idpbuild.maif.fr/as/authorization.oauth2
+#            token-uri: https://idpbuild.maif.fr:1443/as/token.oauth2
+#            user-info-uri: https://idpbuild.maif.fr/idp/userinfo.openid
+#            user-name-attribute: sub
+#            jwk-set-uri: https://idpbuild.maif.fr/ext/TOKEN1
